@@ -85,6 +85,17 @@ public class AssociationList extends Activity {
         button.setPadding(5,5,5,5);
         button.setImageResource(R.drawable.button);
 
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(v.getContext(),AssociationDetail.class);
+                Bundle b = new Bundle();
+                b.putParcelable("Asso",asso);
+                i.putExtra("Association", b);
+                startActivity(i);
+
+            }
+        });
 
         ImageView image = new ImageView(this);
         LinearLayout.LayoutParams imageParam = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT);

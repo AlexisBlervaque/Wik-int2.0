@@ -1,5 +1,9 @@
 package com.example.val.wikint;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -10,7 +14,7 @@ import java.io.InputStreamReader;
  */
 
 public class DecodeJson {
-    public static void main(String[] args){
+    public static void main(String[] args) throws JSONException {
 
         String fichier ="C:\\Users\\Val\\Documents\\Wik-int2.0\\WikINT\\data.json";
 
@@ -31,6 +35,10 @@ public class DecodeJson {
         catch (Exception e){
             System.out.println(e.toString());
         }
-    }
-}
 
+        JSONObject object = new JSONObject(chaine);
+        String ObjectString = object.getString("associations");
+        System.out.print(ObjectString);
+    }
+
+}

@@ -11,7 +11,7 @@ import java.util.List;
  * Created by Val on 29/11/2017.
  */
 
-public class Association implements Serializable {
+public class Association implements Parcelable {
     private String name;
     private int id;
     private Image logo;
@@ -33,6 +33,27 @@ public class Association implements Serializable {
         this.members = members;
     }
 
+
+    protected Association(Parcel in) {
+        name = in.readString();
+        id = in.readInt();
+        president = in.readString();
+        local = in.readString();
+        description = in.readString();
+        members = in.createStringArrayList();
+    }
+
+    public static final Creator<Association> CREATOR = new Creator<Association>() {
+        @Override
+        public Association createFromParcel(Parcel in) {
+            return new Association(in);
+        }
+
+        @Override
+        public Association[] newArray(int size) {
+            return new Association[size];
+        }
+    };
 
     public List<String> getMembers() {
         return members;
@@ -106,4 +127,18 @@ public class Association implements Serializable {
         this.eventList = eventList;
     }
 
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(name);
+        dest.writeInt(id);
+        dest.writeString(president);
+        dest.writeString(local);
+        dest.writeString(description);
+        dest.writeStringList(members);
+    }
 }
