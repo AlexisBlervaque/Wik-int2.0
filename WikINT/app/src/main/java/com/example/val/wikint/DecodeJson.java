@@ -12,7 +12,7 @@ import java.io.InputStreamReader;
 public class DecodeJson {
     public static void main(String[] args){
 
-        String fichier ="D:\\data.json";
+        String fichier ="C:\\Users\\Val\\Documents\\Wik-int2.0\\WikINT\\data.json";
 
         String chaine="";
 
