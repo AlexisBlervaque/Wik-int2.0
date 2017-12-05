@@ -1,1 +1,2 @@
-# Wik-int2.0
+# Wik-INT
+Projet Developpement Android
