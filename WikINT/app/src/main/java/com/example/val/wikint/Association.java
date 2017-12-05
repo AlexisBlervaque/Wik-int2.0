@@ -4,13 +4,14 @@ import android.media.Image;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * Created by Val on 29/11/2017.
  */
 
-public class Association {
+public class Association implements Serializable {
     private String name;
     private int id;
     private Image logo;

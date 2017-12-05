@@ -63,7 +63,7 @@ public class AssociationList extends Activity {
         int i = 0;
         for (Association asso : AssociationList)
         {
-            GridLayout.Spec titleTxtSpecColumn = GridLayout.spec(i%2, GridLayout.BASELINE);
+            GridLayout.Spec titleTxtSpecColumn = GridLayout.spec(i%2,GridLayout.FILL);
             GridLayout.Spec titleRowSpec = GridLayout.spec(i/2);
             FrameLayout frame = createFrame(asso);
             AssoContainer.addView(frame, new GridLayout.LayoutParams(titleRowSpec , titleTxtSpecColumn) );
@@ -77,7 +77,7 @@ public class AssociationList extends Activity {
     private FrameLayout createFrame(final Association asso)
     {
         FrameLayout result = new FrameLayout(this);
-        result.setLayoutParams(new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,120));
+        result.setLayoutParams(new FrameLayout.LayoutParams(AssoContainer.getWidth()/2,120));
 
         ImageButton button = new ImageButton(this);
         button.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
