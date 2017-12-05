@@ -60,10 +60,14 @@ public class AssociationList extends Activity {
 
         AssoContainer.setRowCount(AssociationList.size()/2 + AssociationList.size()%2);
 
+        int i = 0;
         for (Association asso : AssociationList)
         {
+            GridLayout.Spec titleTxtSpecColumn = GridLayout.spec(i%2, GridLayout.BASELINE);
+            GridLayout.Spec titleRowSpec = GridLayout.spec(i/2);
             FrameLayout frame = createFrame(asso);
-            AssoContainer.addView(frame);
+            AssoContainer.addView(frame, new GridLayout.LayoutParams(titleRowSpec , titleTxtSpecColumn) );
+            i++;
         }
 
 
@@ -73,7 +77,7 @@ public class AssociationList extends Activity {
     private FrameLayout createFrame(final Association asso)
     {
         FrameLayout result = new FrameLayout(this);
-        result.setLayoutParams(new FrameLayout.LayoutParams(100,120));
+        result.setLayoutParams(new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,120));
 
         ImageButton button = new ImageButton(this);
         button.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
@@ -88,16 +92,16 @@ public class AssociationList extends Activity {
         image.setLayoutParams(imageParam);
         int imageId = getResources().getIdentifier(asso.getName(),"drawable",getPackageName());
         image.setImageResource(imageId);
-        image.setPadding(10,10,10,10);
+        image.setPadding(10,30,10,10);
 
 
         TextView text = new TextView(this);
-        LinearLayout.LayoutParams textParam = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT);
+        LinearLayout.LayoutParams textParam = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.MATCH_PARENT);
         textParam.gravity = Gravity.BOTTOM;
         text.setLayoutParams(textParam);
         text.setPadding(10,10,10,10);
         text.setText(asso.getName());
-        text.setGravity(Gravity.CENTER_HORIZONTAL);
+        text.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM);
 
 
         result.addView(button);

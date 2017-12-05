@@ -104,10 +104,5 @@ public class Association {
     public void setEventList(List<Event> eventList) {
         this.eventList = eventList;
     }
-<<<<<<< HEAD
-=======
 
-
-
->>>>>>> origin/AssociationListCreateFromJava-(not-operationnal)
 }
