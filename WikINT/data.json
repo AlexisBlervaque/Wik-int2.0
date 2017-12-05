@@ -5,69 +5,35 @@
       "name": "ASINT",
       "president": "Perrin Alexis",
       "local": "RDC du Foyer",
-      "description": "...Qu’est ce que c’est ?
-
-L’ASINT comme son nom l’indique, est l’association qui gère toutes les activités sportives des étudiants de nos deux écoles, mais cela n’en fait pas le classique BDS que l’on y trouve dans les autres écoles.
-
-C’est bien plus que cela, il s’agit en effet de la deuxième association du campus, avec une identité et des valeurs fortes, qui tiennent une place de choix dans la vie de l’INT. Il sera d’ailleurs difficile de passer à côté des polos roses pendant la SEI et le WEI, alors puisque l’ASINT vaut mieux qu’un long discours, on t’invite à venir découvrir notre univers toute la semaine.
-
-...Qu’est ce qu’on y fait ?
-
-Cotisez et vous pourrez profiter de toutes les infrastructures sportives de notre beau campus: terrains de tennis, terrain de basket, gymnase, salle de musculation, street workout… Vous pourrez aussi pratiquer en loisirs ou en compétition (championnats universitaires) des sports encadrés par des professionnels tels que: Rugby, Foot, Hand, Basket, Volley, Badminton,Tennis, Sports de combat, Musculation (tous les jours de la semaine), …Des partenariats avec des clubs d’équitation, d’escalade et de golf existent et permettent de pratiquer ces sports à prix réduit.
-
-Mais l’ASINT c’est aussi 3 soirées, dont celle de la SEI en collaboration avec le BDA, des événements sportifs, et bien sûr le Week End Ski !",
-      "members": ["Perrin Alexis", "Lavric Valentin", "Bonnefous Pierrick", "Finkenberg Clara", "Leonhardt Laura"]
-      "eventList": ["Soirée Halloween : Cli'nique Psychia'Trique", "Assolympiades 1"]
+      "description": "Quï¿½est ce que cï¿½est ? \n Lï¿½ASINT comme son nom lï¿½indique, est lï¿½association qui gï¿½re toutes les activitï¿½s sportives des ï¿½tudiants de nos deux ï¿½coles, mais cela nï¿½en fait pas le classique BDS que lï¿½on y trouve dans les autres ï¿½coles.Cï¿½est bien plus que cela, il sï¿½agit en effet de la deuxiï¿½me association du campus, avec une identitï¿½ et des valeurs fortes, qui tiennent une place de choix dans la vie de lï¿½INT. Il sera dï¿½ailleurs difficile de passer ï¿½ cï¿½tï¿½ des polos roses pendant la SEI et le WEI, alors puisque lï¿½ASINT vaut mieux quï¿½un long discours, on tï¿½invite ï¿½ venir dï¿½couvrir notre univers toute la semaine....Quï¿½est ce quï¿½on y fait ?Cotisez et vous pourrez profiter de toutes les infrastructures sportives de notre beau campus: terrains de tennis, terrain de basket, gymnase, salle de musculation, street workoutï¿½Vous pourrez aussi pratiquer en loisirs ou en compï¿½tition (championnats universitaires) des sports encadrï¿½s par des professionnels tels que: Rugby, Foot, Hand, Basket, Volley, Badminton,Tennis, Sports de combat, Musculation (tous les jours de la semaine), ï¿½Des partenariats avec des clubs dï¿½ï¿½quitation, dï¿½escalade et de golf existent et permettent de pratiquer ces sports ï¿½ prix rï¿½duit._Mais lï¿½ASINT cï¿½est aussi 3 soirï¿½es, dont celle de la SEI en collaboration avec le BDA, des ï¿½vï¿½nements sportifs, et bien sï¿½r le Week End Ski !",
+      "members": ["Perrin Alexis", "Lavric Valentin", "Bonnefous Pierrick", "Finkenberg Clara", "Leonhardt Laura"],
+      "eventList": ["Soirï¿½e Halloween : Cli'nique Psychia'Trique", "Assolympiades 1"]
     },
     {
       "id": 2,
-      "name": "BDE"
-      "president": "Pradère Théo",
+      "name": "BDE",
+      "president": "PradÃ¨re ThÃ©o",
       "local": "RDC du Foyer",
-      "description": "Ton BDE est là pour te faire passer une année inoubliable
-
-Avec : une semaine et un week-end d’intégration à ne rater sous aucun prétexte, des soirées de folies et des voyages dans les capitales Européennes, tu n’auras pas le temps de t’ennuyer !
-
-Tu pourras aussi renforcer tes liens auprès de grandes entreprises lors de journées professionnelles organisées par nos soins.
-
-Tu ne pourras pas nous louper avec nos polos bleus sur les épaules, n’hésite surtout pas à venir nous voir si tu as la moindre question lors de ton arrivée, nous serons là pour t’accueillir !
-
-Comment faire partie du BDE ?
-
-La tâche est difficile mais la satisfaction n’en est que plus grande.
-
-Tu as certainement entendu parler des célèbres campagnes BDE dans les plus grandes Écoles, rien à voir avec la nôtre ! C’est L’ÉVÉNEMENT incontournable de l’année, tout le campus est rythmé autour de ces mois de campagne où tu devras montrer au campus que tu es à la hauteur de tes ambitions ! Rien de mieux pour trouver une nouvelle famille et réaliser les événements les plus fous, impensables à ton arrivée.
-
-Alors rejoins les plus motivés de ta promo et sois prêt pour marquer à ton tour l’histoire de nos deux écoles à tout jamais !",
-      "members": ["Pradère Théo", "Jordan", "Yann", "Poncet", "Borgna"],
-      "eventList": ["Soirée Parrainage - Divina Vesperum", "Soirée de Noël"]
-    },
+      "description": "Ton BDE est lÃ  pour te faire passer une annÃ©e inoubliableAvec : une semaine et un week-end dï¿½intï¿½gration ï¿½ ne rater sous aucun prï¿½texte, des soirï¿½es de folies et des voyages dans les capitales Europï¿½ennes, tu nï¿½auras pas le temps de tï¿½ennuyer !Tu pourras aussi renforcer tes liens auprï¿½s de grandes entreprises lors de journï¿½es professionnelles organisï¿½es par nos soins.Tu ne pourras pas nous louper avec nos polos bleus sur les ï¿½paules, nï¿½hï¿½site surtout pas ï¿½ venir nous voir si tu as la moindre question lors de ton arrivï¿½e, nous serons lï¿½ pour tï¿½accueillir !Comment faire partie du BDE ?La tï¿½che est difficile mais la satisfaction nï¿½en est que plus grande.Tu as certainement entendu parler des cï¿½lï¿½bres campagnes BDE dans les plus grandes ï¿½coles, rien ï¿½ voir avec la nï¿½tre ! Cï¿½est Lï¿½ï¿½Vï¿½NEMENT incontournable de lï¿½annï¿½e, tout le campus est rythmï¿½ autour de ces mois de campagne oï¿½ tu devras montrer au campus que tu es ï¿½ la hauteur de tes ambitions ! Rien de mieux pour trouver une nouvelle famille et rï¿½aliser les ï¿½vï¿½nements les plus fous, impensables ï¿½ ton arrivï¿½e.Alors rejoins les plus motivï¿½s de ta promo et sois prï¿½t pour marquer ï¿½ ton tour lï¿½histoire de nos deux ï¿½coles ï¿½ tout jamais !",
+      "members": ["Pradï¿½re Thï¿½o", "Jordan", "Yann", "Poncet", "Borgna"],
+      "eventList": ["Soirï¿½e Parrainage - Divina Vesperum", "Soirï¿½e de Noï¿½l"]
+    }
   ],
     "events": [
     {
       "id_association": 1,
       "date": "27/10/2017",
-      "name": "Soirée Halloween : Cli'nique Psychia'Trique",
-      "description": "SOIRÉE HALLOWEEN 2017 - CLI’NIQUE PSYCHIA’TRIQUE : BIENVENUE A SHOT’TER ISLAND
-
-        Oyez, Oyez,
-
-        L'ASINT Fireballs vous convie à la soirée la plus sale de l'année en ce vendredi 27 octobre. Pénétrez dans la Cli’nique Psychia’trique et soyez prêts à affronter vos pires cauchemars.
-        Hissez les voiles de votre folie, laissez-vous guider par les flots incessants de votre dépravation. Vous accosterez alors à Shot'ter Island, lieu de débauche et de dérèglement.
-        Que vous soyez un cochon malade ou une infirmière déréglée, pénétrez en ces lieux où vos fantasmes deviendront réalité.",
-      "lieu": "Télécom SudParis - Foyer",
+      "name": "Soirï¿½e Halloween : Cli'nique Psychia'Trique",
+      "description": "SOIRï¿½E HALLOWEEN 2017 - CLIï¿½NIQUE PSYCHIAï¿½TRIQUE : BIENVENUE A SHOTï¿½TER ISLAND.Oyez, Oyez,L'ASINT Fireballs vous convie ï¿½ la soirï¿½e la plus sale de l'annï¿½e en ce vendredi 27 octobre. Pï¿½nï¿½trez dans la Cliï¿½nique Psychiaï¿½trique et soyez prï¿½ts ï¿½ affronter vos pires cauchemars.Hissez les voiles de votre folie, laissez-vous guider par les flots incessants de votre dï¿½pravation. Vous accosterez alors ï¿½ Shot'ter Island, lieu de dï¿½bauche et de dï¿½rï¿½glement.Que vous soyez un cochon malade ou une infirmiï¿½re dï¿½rï¿½glï¿½e, pï¿½nï¿½trez en ces lieux oï¿½ vos fantasmes deviendront rï¿½alitï¿½.",
+      "lieu": "Tï¿½lï¿½com SudParis - Foyer"
     },
-{
+    {
       "id_association": 2,
       "date": "10/10/2017",
-      "name": "Soirée Parrainage - Divina Vesperum",
-      "description": "Ave jeunes INTiens INTtiennes !
-
-Retour vers le passé ! Divina Vesperum (Soirée Divine), la soirée parrainage organisée par le BDE, vous fera suivre les traces des pharaons et vous plongera dans les doux plaisirs égyptiens. Soyez Cléopâtre, Ramses ou Râ. 
-Les Egyptiens et leurs chats ne vous conviennent pas ? Venez vivre une vraie orgie greco-romaine, soyez maître de l’Olympe et délectez-vous d’hydromel, de vodka… et de vodka. 
-
-Préparez vous à la Divina Vesperum par Toutatis.",
-      "lieu": "Télécom SudParis - Foyer",
-    },
+      "name": "Soirï¿½e Parrainage - Divina Vesperum",
+      "description": "Ave jeunes INTiens INTtiennes !Retour vers le passï¿½ ! Divina Vesperum (Soirï¿½e Divine), la soirï¿½e parrainage organisï¿½e par le BDE, vous fera suivre les traces des pharaons et vous plongera dans les doux plaisirs ï¿½gyptiens. Soyez Clï¿½opï¿½tre, Ramses ou Rï¿½. Les Egyptiens et leurs chats ne vous conviennent pas ? Venez vivre une vraie orgie greco-romaine, soyez maï¿½tre de lï¿½Olympe et dï¿½lectez-vous dï¿½hydromel, de vodkaï¿½ et de vodka. Prï¿½parez vous ï¿½ la Divina Vesperum par Toutatis.",
+      "lieu": "Tï¿½lï¿½com SudParis - Foyer"
+    }
   ]
 }
+
