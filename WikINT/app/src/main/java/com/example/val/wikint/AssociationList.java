@@ -49,13 +49,10 @@ public class AssociationList extends Activity {
         //Get Back the list of association;
         ArrayList<Association> AssociationList = new ArrayList<Association>();
 
-
-        AssociationList.add(new Association("asint_logo",0,null,"Théo","local","descirption",null,null));
-        AssociationList.add(new Association("asint_logo",0,null,"Théo","local","descirption",null,null));
-        AssociationList.add(new Association("asint_logo",0,null,"Théo","local","descirption",null,null));
-        AssociationList.add(new Association("asint_logo",0,null,"Théo","local","descirption",null,null));
-        AssociationList.add(new Association("asint_logo",0,null,"Théo","local","descirption",null,null));
-        AssociationList.add(new Association("asint_logo",0,null,"Théo","local","descirption",null,null));
+        AssociationList.add(new Association("ASINT", 0, "asint_logo", "Alexis", "RDC Foyer", "description", null, null, null));
+        AssociationList.add(new Association("ASINT", 0, "asint_logo", "Alexis", "RDC Foyer", "description", null, null, null));
+        AssociationList.add(new Association("ASINT", 0, "asint_logo", "Alexis", "RDC Foyer", "description", null, null, null));
+        AssociationList.add(new Association("ASINT", 0, "asint_logo", "Alexis", "RDC Foyer", "description", null, null, null));
 
 
         AssoContainer.setRowCount(AssociationList.size()/2 + AssociationList.size()%2);
@@ -101,7 +98,7 @@ public class AssociationList extends Activity {
         LinearLayout.LayoutParams imageParam = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT);
         imageParam.gravity = Gravity.CENTER;
         image.setLayoutParams(imageParam);
-        int imageId = getResources().getIdentifier(asso.getName(),"drawable",getPackageName());
+        int imageId = getResources().getIdentifier(asso.getProfil_picture(),"drawable",getPackageName());
         image.setImageResource(imageId);
         image.setPadding(10,30,10,10);
 

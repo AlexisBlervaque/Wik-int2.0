@@ -36,9 +36,9 @@ public class DecodeJson {
             System.out.println(e.toString());
         }
 
-        JSONObject object = new JSONObject(chaine);
-        String ObjectString = object.getString("associations");
-        System.out.print(ObjectString);
+        //JSONObject object = new JSONObject(chaine);
+        //String ObjectString = object.getString("associations");
+        //System.out.print(ObjectString);
     }
 
 }
